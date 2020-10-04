@@ -11,6 +11,9 @@
 		582109202529B20C00A17392 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5821091F2529B20C00A17392 /* ContentView.swift */; };
 		582109222529B20C00A17392 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 582109212529B20C00A17392 /* Assets.xcassets */; };
 		582109252529B20C00A17392 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 582109242529B20C00A17392 /* Preview Assets.xcassets */; };
+		5821092E2529B34300A17392 /* Activity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5821092D2529B34300A17392 /* Activity.swift */; };
+		582109342529BA5500A17392 /* AddActivity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 582109332529BA5500A17392 /* AddActivity.swift */; };
+		582109372529C16D00A17392 /* ActivityView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 582109362529C16D00A17392 /* ActivityView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +23,9 @@
 		582109212529B20C00A17392 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		582109242529B20C00A17392 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		582109262529B20C00A17392 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5821092D2529B34300A17392 /* Activity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Activity.swift; sourceTree = "<group>"; };
+		582109332529BA5500A17392 /* AddActivity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddActivity.swift; sourceTree = "<group>"; };
+		582109362529C16D00A17392 /* ActivityView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,8 +58,12 @@
 		5821091C2529B20C00A17392 /* HabitTracker */ = {
 			isa = PBXGroup;
 			children = (
-				5821091D2529B20C00A17392 /* HabitTrackerApp.swift */,
+				5821092D2529B34300A17392 /* Activity.swift */,
+				582109362529C16D00A17392 /* ActivityView.swift */,
+				582109332529BA5500A17392 /* AddActivity.swift */,
+				582109302529B35100A17392 /* Data */,
 				5821091F2529B20C00A17392 /* ContentView.swift */,
+				5821091D2529B20C00A17392 /* HabitTrackerApp.swift */,
 				582109212529B20C00A17392 /* Assets.xcassets */,
 				582109262529B20C00A17392 /* Info.plist */,
 				582109232529B20C00A17392 /* Preview Content */,
@@ -67,6 +77,13 @@
 				582109242529B20C00A17392 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		582109302529B35100A17392 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Data;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,7 +155,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5821092E2529B34300A17392 /* Activity.swift in Sources */,
 				582109202529B20C00A17392 /* ContentView.swift in Sources */,
+				582109342529BA5500A17392 /* AddActivity.swift in Sources */,
+				582109372529C16D00A17392 /* ActivityView.swift in Sources */,
 				5821091E2529B20C00A17392 /* HabitTrackerApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
